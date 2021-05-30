@@ -1,0 +1,21 @@
+﻿<Properties StartupConfiguration="{E8CD7F94-B19B-AC5A-C9CD-88710A294545}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/TCPClientController.cs">
+    <Files>
+      <File FileName="Assets/Scripts/TCPClientController.cs" Line="62" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Sample_TCPClient" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="999faccf-963e-4639-bff3-efe901250395" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

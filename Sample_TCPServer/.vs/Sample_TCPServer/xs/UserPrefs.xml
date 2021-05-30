@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{F2B441B5-B25C-15F1-3F10-09EC420EE518}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scipts/TCPServerController.cs">
+    <Files>
+      <File FileName="Assets/Scipts/TCPServerController.cs" Line="45" Column="28" />
+      <File FileName="../../../../../Applications/Unity/Hub/Editor/2019.4.18f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/UIBehaviour.cs" Line="28" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Sample_TCPServer" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scipts" expanded="True">
+                <Node name="TCPServerController.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="999faccf-963e-4639-bff3-efe901250395" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
