@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using System.Threading;
+using System;
+using System.IO;
 using System.Net;
 using System.Net.Sockets;
 using System.Text;
@@ -14,7 +16,7 @@ public class TCPServerController : MonoBehaviour
 
     TcpListener listener;
     TcpClient client;
-    NetworkStream ns;
+    NetworkStream ns;    
 
     bool done = false;
     bool startServer = false;
@@ -42,6 +44,7 @@ public class TCPServerController : MonoBehaviour
 
     private void Update()
     {
+        /*
         if (client != null)
         {
             if (client.Connected)
@@ -56,14 +59,15 @@ public class TCPServerController : MonoBehaviour
             }
         }
         else print("client is null");
-        
+        */
     }
 
     void StartListening(System.IAsyncResult asyncResult)
     {
+        Debug.Log("누군가 접속 시도중!!!");
         PrintMsg("요스!");
-        try
-        {
+        //try
+        //{
             TcpListener listener = (TcpListener)asyncResult.AsyncState;
 
 
@@ -72,12 +76,13 @@ public class TCPServerController : MonoBehaviour
             
             ns = client.GetStream();
             PrintMsg("접속됐습니다!");
+            Debug.Log("접속됐습니다!~");
 
-        }
-        catch (System.Exception ex)
-        {
-            PrintMsg(ex.Message);
-        }
+        //}
+        //catch (System.Exception ex)
+        //{
+        //    PrintMsg(ex.Message);
+        //}
     }
 
     public void PrintMsg(string msg)
